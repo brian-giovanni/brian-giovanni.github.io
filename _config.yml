@@ -88,6 +88,10 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
+# For consistent navigation
+navigation:
+  main: main
+
 # Social Sharing
 twitter:
   username               :
