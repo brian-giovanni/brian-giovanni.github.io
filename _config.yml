@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : benbalter/retlab
+remote_theme             : "mmistakes/minimal-mistakes@4.17.2"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
   
 # Site Settings
@@ -123,7 +123,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:brian.giovanni2807@gmail.com"
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/brian-giovanni/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -133,7 +133,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/brian-giovanni/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
