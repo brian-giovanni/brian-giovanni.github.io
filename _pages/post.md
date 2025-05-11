@@ -1,11 +1,17 @@
 ---
-title: "Post"
-permalink: /post/
+title: "Article"
+permalink: /posts/
 layout: single
 author_profile: true
 ---
 
-Welcome to my project showcase!
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url }})
+*{{ post.date | date: "%B %d, %Y" }}*
 
-- 📊 Project 1
-- 🤖 Project 2
+{{ post.excerpt | strip_html | truncate: 160 }}
+
+[Read more →]({{ post.url }})
+
+---
+{% endfor %}
