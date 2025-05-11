@@ -1,5 +1,5 @@
 ---
-title: "My Experience"
+title: "Curriculum Vitae"
 permalink: /experience/
 layout: single
 author_profile: true

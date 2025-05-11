@@ -8,6 +8,7 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap');
 
 html {
     font-size: 12px; // originally 16px
@@ -23,3 +24,25 @@ html {
         font-size: 18px; // originally 22px
     }
 }
+
+/* Site title (top-left corner) */
+.site-title {
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+/* Headings (H1, H2, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Body text */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
