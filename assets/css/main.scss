@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
@@ -54,4 +54,22 @@ ul, ol {
         margin-bottom: 0em;
         margin-top: 0em;
     }
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #2200ff96; /* Blue */
+  color: #fff !important;
+  font-size: 0.85rem !important; /* Smaller text */
+  text-decoration: none !important;
+  border-radius: 5px;
+  font-weight: 500;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #1A252F;
+  text-decoration: none !important;
 }
